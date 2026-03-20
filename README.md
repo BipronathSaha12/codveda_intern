@@ -1,83 +1,115 @@
-# Codveda Internship - Level 1 Projects
+# Codveda Internship Projects 🚀
 
-This repository contains my Level 1 projects completed as part of my
-internship at Codveda.\
-The goal of these projects is to build a strong foundation in Python
-programming by developing simple and practical applications.
+This repository contains my Level 1 and Level 2 projects completed as
+part of my internship at Codveda.\
+These projects focus on building practical Python applications and
+improving problem-solving skills.
 
 ------------------------------------------------------------------------
 
-## 📌 Projects Included
+## 🔹 Level 1: Python Basics
+
+### 📌 Projects
 
 ### 1️⃣ Simple Calculator
 
-A command-line calculator that performs basic arithmetic operations.
-
-**Requirements Implemented:** - Created separate functions for each
-operation - Takes two inputs from the user - Allows the user to select
-the desired operation - Handles division by zero with appropriate error
-messages
+**Requirements:** - Create functions for each operation\
+- Take two inputs from the user and allow them to select the desired
+operation\
+- Handle division by zero with appropriate error messages
 
 ------------------------------------------------------------------------
 
 ### 2️⃣ Word Counter
 
-A Python program that counts the number of words in a file.
-
-**Requirements Implemented:** - Reads the content of a file - Splits the
-content into words - Counts the total number of words - Handles
-exceptions such as file not found
+**Requirements:** - Read the content of a file\
+- Split the content into words and count them\
+- Handle exceptions, such as file not found
 
 ------------------------------------------------------------------------
 
 ### 3️⃣ Number Guessing Game 🎯
 
-An interactive game where the user guesses a randomly generated number.
+**Features:** - Random number generation\
+- User guesses the number\
+- Feedback system (Too high / Too low)\
+- Continues until the correct guess
 
-**Features:** - Random number generation - User input handling -
-Feedback for incorrect guesses (Too high / Too low) - Continues until
-the correct number is guessed
+------------------------------------------------------------------------
+
+## 🔹 Level 2: Intermediate Python Projects
+
+### 📌 Projects
+
+### 1️⃣ To-Do List (CLI Application)
+
+**Description:** Build a simple command-line to-do list application.
+
+**Objectives:** - Implement the ability to add, view, and delete tasks\
+- Store tasks in a file (CSV or JSON format)\
+- Mark tasks as completed\
+- Implement basic error handling
+
+------------------------------------------------------------------------
+
+### 2️⃣ Data Scraper 🌐
+
+**Description:** Develop a web scraper to extract specific data from a
+website.
+
+**Objectives:** - Use the requests library to retrieve web page content\
+- Parse the HTML using BeautifulSoup\
+- Extract specific data (e.g., headlines or product details)\
+- Save the scraped data into a CSV file
+
+------------------------------------------------------------------------
+
+### 3️⃣ API Integration 🔗
+
+**Description:** Write a Python script that interacts with an external
+API.
+
+**Objectives:** - Use the requests library to make GET requests\
+- Parse and display fetched data in a user-friendly format\
+- Handle errors such as failed requests or invalid responses
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
--   Python 3
+-   Python 3\
+-   requests\
+-   BeautifulSoup\
+-   CSV / JSON
 
 ------------------------------------------------------------------------
 
 ## 📂 Project Structure
 
-level-1/ │ ├── simple_calculator/ ├── word_counter/ └──
-number_guessing_game/
+codveda_intern/ │ ├── level-1/ │ ├── simple_calculator/ │ ├──
+word_counter/ │ └── number_guessing_game/ │ ├── level-2/ │ ├──
+todo_list/ │ ├── data_scraper/ │ └── api_integration/
 
 ------------------------------------------------------------------------
 
 ## 🚀 How to Run
 
 1.  Clone the repository: git clone
-    https://github.com/BipronathSaha12/your-repo.git
+    https://github.com/BipronathSaha12/codveda_intern.git
 
-2.  Switch to Level 1 branch: git checkout level-1
+2.  Navigate to a project folder then
 
-3.  Run any project: cd simple_calculator python main.py
+3.  Run the script: python main.py
 
 ------------------------------------------------------------------------
 
 ## 🎯 Learning Outcomes
 
--   Understanding Python functions and control flow
--   Handling user input and exceptions
--   Working with files in Python
--   Building small real-world applications
-
-------------------------------------------------------------------------
-
-## 📌 Future Improvements
-
--   Add GUI versions of projects
--   Improve user interface
--   Enhance error handling
+-   Python fundamentals and control flow\
+-   File handling (CSV/JSON)\
+-   Exception handling\
+-   Web scraping and HTML parsing\
+-   API integration and real-time data handling
 
 ------------------------------------------------------------------------
 
